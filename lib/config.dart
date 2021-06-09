@@ -1,6 +1,6 @@
 // uncomment if you need to override the app theme
-//import 'package:flutter/material.dart';
-//import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 
 import 'package:zapdart/colors.dart';
@@ -28,7 +28,7 @@ const UseSettlement = false;
 // enable/disable merchant api (including all references/conversions to NZD)
 const UseMerchantApi = false;
 // enable/disable a webview homepage (null = disabled)
-const String? WebviewURL = null;
+const String? WebviewURL = 'https://sites.google.com/view/frankiecms/home';
 // enable/disable the centered ZAP button
 const ZapButton = true;
 const ZapButtonIcon = FlutterIcons.bolt_faw5s;
@@ -40,7 +40,7 @@ const TokenType AppTokenType = TokenType.PayDB;
 const ClaimRedRatZap =
     false; // when changing this to true you must add the redrat deeplink to the app metadata
 // can we buy/sell zap on bronze
-const UseBronze = true;
+const UseBronze = false;
 
 // Waves settings
 // set these two to use a different mainnet/testnet asset id pair then the default zap asset ids.
